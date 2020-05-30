@@ -24,11 +24,11 @@ status=$(kubectl get po $i | grep $i | awk '{print $3}')
 	if [[ ! $status =~ ^Running$|^Completed$  ]]  ; then
 		echo -e "\e[1;31mOh Shit !"$rescolor""
         notify-send "Pods Health" "$i was  FUCKED" -t 10000 
-        let ok=ok+1
+        let notok=notok+1
 	else
 		echo -e "\e[1;32mOK!"$rescolor""
         #notify-send "Pod $i Is Good :)"
-      let notok=notok+1
+      let ok=ok+1
 	fi
 done
 echo -e "\nSTATS:\n"
