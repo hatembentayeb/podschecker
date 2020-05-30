@@ -11,7 +11,7 @@ chmod +x podschecker.sh
 ### Usage
 
 ```bash 
-➜   ./notify_unhealthy_pods.sh
+➜   ./podschecker.sh
 
 Sit Down and Wait  😂 :
 
@@ -25,7 +25,7 @@ STATS:
 +---------------+---------------+
 |Healthy Pods   |Unhealthy Pods |
 +---------------+---------------+
-|1              |3              |
+|3              |1             |
 +---------------+---------------+
 
 ```
