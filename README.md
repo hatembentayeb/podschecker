@@ -5,7 +5,7 @@ podschecker is a simple script thats check your pods health on your terminal, it
 ### Setup
 
 ```bash
-curl https://raw.githubusercontent.com/itninja-hue/kubedu/master/podschecker.sh --output podschecker.sh
+curl https://raw.githubusercontent.com/hatembentayeb/podschecker/master/podschecker.sh --output podschecker.sh
 chmod +x podschecker.sh
 ```
 ### Usage
